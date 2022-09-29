@@ -2,6 +2,7 @@ package org.iesch.a02_registro_de_superheroes;
 
 import androidx.appcompat.app.AppCompatActivity;
 import org.iesch.a02_registro_de_superheroes.databinding.ActivityMainBinding;
+import org.iesch.a02_registro_de_superheroes.model.Superhero;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,11 +31,15 @@ public class MainActivity extends AppCompatActivity {
         // 1 Se crea objeto de tipo intent y se le dice donde se esta y a donde se quiee ir
         Intent irADetalle = new Intent(this, DetailActivity.class);
 
-        // 3.5 Añadimos al Intent toda la info que queramos pasar, se le pasa una llave (string) y un value
-        irADetalle.putExtra("superhero_name", superHeroName);
-        irADetalle.putExtra("alterego", alterEgo);
-        irADetalle.putExtra("bio", bio);
-        irADetalle.putExtra("rating", rating);
+        // 3.5v1 Añadimos al Intent toda la info que queramos pasar, se le pasa una llave (string) y un value
+//        irADetalle.putExtra("superhero_name", superHeroName);
+//        irADetalle.putExtra("alterego", alterEgo);
+//        irADetalle.putExtra("bio", bio);
+//        irADetalle.putExtra("rating", rating);
+
+        // 3.5v2 Nos creamos un objeto de tipo Superhero
+        Superhero superhero = new Superhero(superHeroName, alterEgo, bio, rating);
+        irADetalle.putExtra("superhero", superhero);
 
         // 2 Se llama a StarActivity para ir a DetailActivity
         startActivity(irADetalle);
