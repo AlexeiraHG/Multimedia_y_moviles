@@ -3,6 +3,7 @@ package org.iesch.a02_registro_de_superheroes;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
 
 import org.iesch.a02_registro_de_superheroes.databinding.ActivityDetailBinding;
@@ -28,6 +29,12 @@ public class DetailActivity extends AppCompatActivity {
         //2v2 Recibir el objeto superhero de extras
         Superhero superhero = extras.getParcelable("superhero");
 
+        // Recibir la imagen
+        Bitmap bitmap = extras.getParcelable("foto");
+        if (bitmap != null){
+            binding.imageView.setImageBitmap(bitmap);
+        }
+
         // 3v1 Cargar variables en los campos de la datail activity
 //        binding.nombreHeroeText.setText(heroName);
 //        binding.TVAlterEgo.setText(alterego);
@@ -35,10 +42,13 @@ public class DetailActivity extends AppCompatActivity {
 //        binding.ratingBar.setRating(rating);
 
         // 3v2 Cargar variables en los campos del objeto superhero
-        binding.nombreHeroeText.setText(superhero.getName());
-        binding.TVAlterEgo.setText(superhero.getAlterego());
-        binding.TVBio.setText(superhero.getBio());
-        binding.ratingBar.setRating(superhero.getPower());
+//        binding.nombreHeroeText.setText(superhero.getName());
+//        binding.TVAlterEgo.setText(superhero.getAlterego());
+//        binding.TVBio.setText(superhero.getBio());
+//        binding.ratingBar.setRating(superhero.getPower());
+
+        // 3v3
+            binding.setSuperhero(superhero);
 
     }
 }
