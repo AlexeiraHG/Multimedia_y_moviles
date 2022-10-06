@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">04_Marcador_de_basket</string>
+    <string name="Local">Local</string>
+    <string name="Visitante">Visitante</string>
+    <string name="masuno">+1</string>
+    <string name="menosuno">-1</string>
+    <string name="cero">00</string>
+    <string name="masdos">+2</string>
+    <string name="win">Ganadores</string>
 </resources>
