@@ -21,7 +21,7 @@ public class ScoreActivity extends AppCompatActivity {
         int local = getIntent().getExtras().getInt("local");
         int visitor = getIntent().getExtras().getInt("visitor");
 
-        binding.ScoreText.setText(getString(local) + " - " + getString(visitor));
+        binding.ScoreText.setText(String.valueOf(local) + " - " + String.valueOf(visitor));
 
         if (local > visitor) {
             binding.Ganadores.setText("Gano el equipo local");

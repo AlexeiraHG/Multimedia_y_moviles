@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -10,15 +9,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ScoreActivity"
-        >
+        android:background="@drawable/cancha"
+        android:orientation="vertical"
+        tools:context=".ScoreActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Local vs Visitante"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/Score_Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="16dp"
             android:text="00 - 00"
             android:textColor="@color/black"
             android:textSize="72sp" />
@@ -29,13 +39,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/Score_Text"
             android:gravity="center"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="16dp"
-            android:text="@string/win"
+            android:padding="16dp"
             android:textColor="@color/black"
-            android:textSize="32dp"
-            android:textStyle="bold" />
+            android:textSize="32sp"
+            tools:text="Ganó el local" />
 
 
     </RelativeLayout>
