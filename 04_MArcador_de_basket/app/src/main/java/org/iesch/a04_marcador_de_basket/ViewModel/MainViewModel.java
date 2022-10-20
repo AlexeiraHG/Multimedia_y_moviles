@@ -12,7 +12,7 @@ public class MainViewModel extends ViewModel {
     private MutableLiveData<Integer> visitorScore = new MutableLiveData<>();
 
     // LV 5 - Se crea un constructor ya que se inicializan a nulo
-    public MainViewModel(MutableLiveData<Integer> localScore) {
+    public MainViewModel() {
         ResetScore();
     }
 

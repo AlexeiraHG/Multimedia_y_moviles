@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             //Este entero es el valor dle mutable live data que estamos obsrevando
             binding.LocalScoreText.setText(String.valueOf(locaScoreInteger));
         });
-        viewModel.getLocalScore().observe(this, VisitorScoreInteger ->{
+        viewModel.getVisitorScore().observe(this, VisitorScoreInteger ->{
             //Este entero es el valor dle mutable live data que estamos obsrevando
             binding.VisitScoreText.setText(String.valueOf(VisitorScoreInteger));
         });
