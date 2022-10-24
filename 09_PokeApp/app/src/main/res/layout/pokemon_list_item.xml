@@ -3,6 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
     android:orientation="horizontal">
 
     <TextView
@@ -11,23 +13,22 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
         android:text="1"/>
-
-
     <TextView
         android:id="@+id/pokemon_list_name_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Charizard"/>
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Bulbasaur"/>
     <ImageView
         android:id="@+id/pokemon_list_item_type_image"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_weight="1"
-        android:src="@drawable/fire"/>
+        android:src="@drawable/electric"/>
 
 
 </LinearLayout>
