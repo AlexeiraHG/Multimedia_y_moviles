@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Login</string>
-    <string name="contraseña">Contraseña</string>
-    <string name="iniciar">Iniciar</string>
-    <string name="user">Usuario</string>
-    <string name="bienvenida">Bienvenido </string>
-    <string name="empty">Los campos no pueden estar vacios</string>
-</resources>
