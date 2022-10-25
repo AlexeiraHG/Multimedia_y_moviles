@@ -1,4 +1,4 @@
-package org.iesch.Calculadora;
+package org.iesch.a00_calculadora;
 
 import org.junit.Test;
 

@@ -1,17 +1,19 @@
-package org.iesch.Calculadora;
+package org.iesch.a00_calculadora;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
-import org.iesch.Calculadora.databinding.ActivityMainBinding;
+import org.iesch.a00_calculadora.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+
+public class CalculadoraActivity extends AppCompatActivity {
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.sum.setOnClickListener(v -> {
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        binding.res.setOnClickListener(v ->{
+        binding.res.setOnClickListener(v -> {
 
             double num1Int = 0;
             String numero1 = binding.num1.getText().toString();
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        binding.mul.setOnClickListener(v ->{
+        binding.mul.setOnClickListener(v -> {
             double num1Int = 0;
             String numero1 = binding.num1.getText().toString();
             if (!numero1.isEmpty()) {
@@ -84,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             binding.resultado.setText(resultadoTexto);
         });
 
-        binding.div.setOnClickListener(v ->{
+        binding.div.setOnClickListener(v -> {
             double num1Int = 0;
             String numero1 = binding.num1.getText().toString();
 
@@ -96,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
             double num2Int = 0;
             String numero2 = binding.num2.getText().toString();
-            if (numero2 == "0"){
+            if (numero2 == "0") {
                 Toast.makeText(this, getString(R.string.cero), Toast.LENGTH_LONG).show();
             }
             if (!numero2.isEmpty()) {

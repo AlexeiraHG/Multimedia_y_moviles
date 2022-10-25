@@ -1,4 +1,4 @@
-package org.iesch.Calculadora;
+package org.iesch.a00_calculadora;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("org.iesch.Calculadora", appContext.getPackageName());
+        assertEquals("org.iesch.a00_calculadora", appContext.getPackageName());
     }
 }

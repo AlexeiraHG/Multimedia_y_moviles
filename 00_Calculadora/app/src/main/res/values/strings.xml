@@ -1,15 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="MyApp" >Calculadora</string>
-    <string name="bienvenida" >Bienvenidos a mi APP Calculadora</string>
-    <string name="num1">Introduzca el primer número:</string>
-    <string name="num1et">Numero 1</string>
-    <string name="num2">Introduzca el segundo numero:</string>
-    <string name="num2et">Numero 2</string>
-    <string name="suma">SUMA</string>
-    <string name="resta">RESTA</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MyApp">Calculator</string>
+    <string name="bienvenida">Welcome a mi APP Calculadora</string>
+    <string name="num1">Type the first number:</string>
+    <string name="num1et">number 1</string>
+    <string name="num2">Type the second number:</string>
+    <string name="num2et">number 2</string>
+    <string name="suma">ADD</string>
+    <string name="resta">SUST</string>
     <string name="multiplicacion">MULT</string>
     <string name="division">DIVISION</string>
-    <string name="resultadotext">EL resultado de la operación es:</string>
-    <string name="empty">Los campos no pueden estar vacíos</string>
-    <string name="cero">No se puede dividir entre 0</string>
+    <string name="resultadotext">The result of the operation is:</string>
+    <string name="empty">The fields cannot be empty</string>
+    <string name="cero">Yo canoot input 0</string>
 </resources>

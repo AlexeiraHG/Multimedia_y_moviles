@@ -12,7 +12,8 @@
         android:orientation="vertical"
         android:layout_margin="20dp"
         tools:context=".MainActivity"
-        tools:ignore="NamespaceTypo">
+        tools:ignore="NamespaceTypo"
+        >
 
         <TextView
             android:id="@+id/bienvenidos"
@@ -21,7 +22,7 @@
             android:padding="16dp"
             android:text="@string/bienvenida"
             android:textColor="@color/black"
-            android:textSize="34dp" />
+            android:textSize="30dp" />
 
 
         <ImageView
@@ -39,7 +40,7 @@
             android:padding="16dp"
             android:text="@string/num1"
             android:textColor="@color/grey"
-            android:textSize="20dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/num1"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/num1et"
             android:inputType="number"
-            android:padding="16dp"
+            android:padding="12dp"
             android:textColor="@color/gris" />
 
         <TextView
@@ -65,7 +66,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/num2et"
             android:inputType="number"
-            android:padding="16dp"
+            android:padding="12dp"
             android:textColor="@color/gris" />
 
         <LinearLayout
@@ -131,15 +132,16 @@
             android:padding="16dp"
             android:text="@string/resultadotext"
             android:textColor="@color/grey"
-            android:textSize="20dp" />
+            android:textSize="18dp" />
 
         <EditText
             android:id="@+id/resultado"
             android:layout_width="match_parent"
-            android:layout_height="71dp"
+            android:layout_height="50dp"
             android:inputType="number"
-            android:padding="16dp"
-            android:textColor="@color/gris" />
+            android:padding="12dp"
+            android:textColor="@color/gris"
+            android:editable="false"/>
 
 
     </LinearLayout>
