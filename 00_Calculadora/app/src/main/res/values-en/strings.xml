@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MyApp">Calculator</string>
+    <string name="bienvenida">Bienvenidos a mi APP Calculadora</string>
+    <string name="num1">Type the first number:</string>
+    <string name="num1et">number 1</string>
+    <string name="num2">Type the second number:</string>
+    <string name="num2et">number 2</string>
+    <string name="suma">ADD</string>
+    <string name="resta">SUST</string>
+    <string name="multiplicacion">MULT</string>
+    <string name="division">DIVISION</string>
+    <string name="resultadotext">The result of the operation is:</string>
+    <string name="empty">The fields cannot be empty</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="MyApp" >Calculadora</string>
+    <string name="bienvenida" >Bienvenidos a mi APP Calculadora</string>
+    <string name="num1">Introduzca el primer número:</string>
+    <string name="num1et">Numero 1</string>
+    <string name="num2">Introduzca el segundo numero:</string>
+    <string name="num2et">Numero 2</string>
+    <string name="suma">SUMA</string>
+    <string name="resta">RESTA</string>
+    <string name="multiplicacion">MULT</string>
+    <string name="division">DIVISION</string>
+    <string name="resultadotext">EL resultado de la operación es:</string>
+    <string name="empty">Los campos no pueden estar vacíos</string>
+    <string name="cero">No se puede dividir entre 0</string>
+</resources>
