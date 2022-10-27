@@ -15,68 +15,60 @@ import java.util.ArrayList;
 // 2 - Creo el pokemon list adapter que ha de extemder de BaseAdapter
 public class PokemonListAdapter extends BaseAdapter {
 
-    //3 - Atributos necesarioa para la clase
+    // 3 - Atributos necesarios para la clase
     private Context context;
-    private ArrayList<Pokemon> pokemonLst;
-    private int layoutID;
-
-    // 4 - Genero el constructor del adaptador
-    public PokemonListAdapter(Context context, ArrayList<Pokemon> pokemonLst, int layoutID) {
+    private ArrayList<Pokemon> pokemonList;
+    private int layoutId;
+    //4 - Genero el Constructor
+    public PokemonListAdapter(Context context, ArrayList<Pokemon> pokemonList, int layoutId) {
         this.context = context;
-        this.pokemonLst = pokemonLst;
-        this.layoutID = layoutID;
+        this.pokemonList = pokemonList;
+        this.layoutId = layoutId;
     }
-
-    // 5 - Modifico los metodos que sean necesarios
+    // 5 - Modifico los metodos que sean necesarios en mi adaptador
     @Override
     public int getCount() {
-        return pokemonLst.size();
+        return pokemonList.size();
     }
 
     @Override
-    public Object getItem(int i) {
-        return pokemonLst.get(i);
+    public Object getItem(int position) {
+        return pokemonList.get(position);
     }
 
     @Override
-    public long getItemId(int i) {
+    public long getItemId(int position) {
         return 0;
     }
-
-    // 6 - En getView vamos a crear cad item
+    // 6 - En getView vamos a crear cada item
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
-        final Pokemon pokemon = (Pokemon) getItem(i);
-
-        // 7 -
-        view = LayoutInflater.from(context).inflate(R.layout.pokemon_list_item, null);
-        TextView pokemonIdTV = view.findViewById(R.id.pokemon_list_id_textView);
-        TextView pokemonNameTV = view.findViewById(R.id.pokemon_list_name_text_view);
-        ImageView pokemonTypeIV = view.findViewById(R.id.pokemon_list_item_type_image);
-
-
-        // 8 - LLenamos la lista de elementos
-
-        pokemonIdTV.setText(pokemon.getId());
-        pokemonNameTV.setText(pokemon.getName());
+    public View getView(int position, View convertView, ViewGroup parent) {
+        final Pokemon pokemon = (Pokemon) getItem(position);
+        // 7
+        convertView = LayoutInflater.from(context).inflate(R.layout.pokemon_list_item, null);
+        TextView pokemonIdTextView = convertView.findViewById(R.id.pokemon_list_item_id_textView);
+        TextView pokemonNameTextView = convertView.findViewById(R.id.pokemon_list_item_name_textView);
+        ImageView pokemonTypeImageView = convertView.findViewById(R.id.pokemon_list_item_type_image);
+        // 8 - Llenamos la lista de elementos
+        pokemonIdTextView.setText(pokemon.getId());
+        pokemonNameTextView.setText(pokemon.getName());
         final Pokemon.Type type = pokemon.getType();
-        // en vase al superpodere se le asigna un iciono u otro
-        switch (type) {
+        // en vase al superpoder que tenga, le asignamos un icono u otro
+        switch (type){
             case FIRE:
-                pokemonTypeIV.setImageResource(R.drawable.fire);
+                pokemonTypeImageView.setImageResource(R.drawable.fire);
                 break;
             case PLANT:
-                pokemonTypeIV.setImageResource(R.drawable.plant);
+                pokemonTypeImageView.setImageResource(R.drawable.plant);
                 break;
             case WATER:
-                pokemonTypeIV.setImageResource(R.drawable.water);
+                pokemonTypeImageView.setImageResource(R.drawable.water);
                 break;
             case ELECTRIC:
-                pokemonTypeIV.setImageResource(R.drawable.electric);
+                pokemonTypeImageView.setImageResource(R.drawable.electric);
                 break;
         }
-
-
-        return view;
+        return convertView;
     }
 }
+

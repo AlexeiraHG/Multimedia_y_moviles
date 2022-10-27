@@ -1,26 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+<!--    Cambiamos a frame layout-->
 
-    <!--Detalles-->
-    <fragment
-        android:id="@+id/pokemon_detail_fragment"
-        android:name="fragments.DetailFragment"
+    <FrameLayout
+        android:id="@+id/pokemon_detail_container"
+        android:name="org.iesch.a09_pokeapp.fragments.DetailFragment"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        tools:layout="@layout/fragment_detail" />
+        />
 
-    <!--Lista-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cardview_dark_background">
+        <TextView
+            android:id="@+id/activity_main_image_opcion_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="IMAGEN"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/activity_main_opcion_estadisticas_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="ESTADISTICAS"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
     <fragment
-        android:id="@+id/pokemonListFragment"
-        android:name="fragments.PokemonListFragment"
+        android:id="@+id/pokemon_list_fragment"
+        android:name="org.iesch.a09_pokeapp.fragments.PokemonListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/pokemon_detail_fragment"
-        tools:layout="@layout/fragment_pokemon_list" />
+        android:layout_below="@id/pokemon_detail_container"
+        />
 
-
-</RelativeLayout>
+</LinearLayout>

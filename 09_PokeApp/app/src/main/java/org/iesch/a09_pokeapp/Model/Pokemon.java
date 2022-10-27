@@ -5,21 +5,23 @@ public class Pokemon {
     private String id;
     private String name;
     private Type type;
-    //entero para el id de la imagen
-    private int imageId;
+    //1- le cambio porque ahora vamos a usar urls
+    private String imageurl;
     private int soundId;
+    private Stats stats;
 
 
     public enum Type{
         FIRE, WATER, PLANT, ELECTRIC;
     }
 
-    public Pokemon(String id, String name, Type type, int imageId, int soundId) {
+    public Pokemon(String id, String name, Type type, int soundId, String imageurl, Stats stats) {
         this.id = id;
         this.name = name;
         this.type = type;
-        this.imageId = imageId;
         this.soundId = soundId;
+        this.imageurl = imageurl;
+        this.stats = stats;
     }
 
     public String getId() {
@@ -34,11 +36,15 @@ public class Pokemon {
         return type;
     }
 
-    public int getImageId() {
-        return imageId;
+    public String getImageurl() {
+        return imageurl;
     }
 
     public int getSoundId() {
         return soundId;
+    }
+
+    public Stats getStats() {
+        return stats;
     }
 }
