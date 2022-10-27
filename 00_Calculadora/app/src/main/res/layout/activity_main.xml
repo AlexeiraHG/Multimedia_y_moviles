@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".MainActivity"
+        tools:ignore="NamespaceTypo"
+        >
+
+        <TextView
+            android:id="@+id/bienvenidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/bienvenida"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/calc"
+            android:layout_width="284dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/calc" />
+
+        <TextView
+            android:id="@+id/num1text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/num1"
+            android:textColor="@color/grey"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/num1et"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/gris" />
+
+        <TextView
+            android:id="@+id/num2text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/num2"
+            android:textColor="@color/grey"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/num2et"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/gris" />
+
+        <LinearLayout
+            android:id="@+id/BtnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/sum"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="@string/suma" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/res"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="@string/resta" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/mul"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="@string/multiplicacion" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/div"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="@string/division" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/resultadotext"
+            android:textColor="@color/grey"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:padding="12dp"
+            android:textColor="@color/gris"
+            android:editable="false"/>
+
+
+    </LinearLayout>
+</layout>
+
