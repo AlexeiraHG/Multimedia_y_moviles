@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "org.iesch.login.app-merged_res-31:/layout_activity_bienvenida.xml.flat",
+        "source": "org.iesch.login.app-main-33:/layout/activity_bienvenida.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable-v24_wb.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\drawable-v24\\wb.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable_forma.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\drawable\\forma.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\layout_activity_bienvenida.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\layout\\activity_bienvenida.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable_deg.jpg.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\drawable\\deg.jpg"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\drawable_user.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\drawable\\user.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-merged_res-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-debug-32:\\mipmap-hdpi\\ic_launcher.png"
+    }
+]

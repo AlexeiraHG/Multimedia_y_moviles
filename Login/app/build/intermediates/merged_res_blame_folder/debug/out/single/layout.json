@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-mergeDebugResources-30:\\layout\\activity_bienvenida.xml",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\layout\\activity_bienvenida.xml"
+    },
+    {
+        "merged": "org.iesch.login.app-mergeDebugResources-30:/layout/activity_bienvenida.xml",
+        "source": "org.iesch.login.app-main-33:/layout/activity_bienvenida.xml"
+    },
+    {
+        "merged": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "D:\\Users\\dam2\\.gradle\\daemon\\7.4\\org.iesch.login.app-main-33:\\layout\\activity_main.xml"
+    }
+]

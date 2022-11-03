@@ -1,33 +1,33 @@
 package org.iesch.a09_pokeapp.Model;
 
-//Me creo el objeto con sus campos, su constructor y sus getters
+// 1 - Me creo el objeto Pokemon con sus campos, su constructor y sus getters
 public class Pokemon {
+
     private String id;
     private String name;
     private Type type;
-    //1- le cambio porque ahora vamos a usar urls
-    private String imageurl;
+    // le pongo un entero porque contiene el id de la imagen
+    private String imageUrl;
     private int soundId;
     private Stats stats;
 
 
-    public enum Type{
-        FIRE, WATER, PLANT, ELECTRIC;
+    public enum Type {
+        FIRE, WATER, PLANT, ELECTRIC
     }
 
-    public Pokemon(String id, String name, Type type, int soundId, String imageurl, Stats stats) {
+    public Pokemon(String id, String name, Type type, int soundId, String imageUrl, Stats stats) {
         this.id = id;
         this.name = name;
         this.type = type;
         this.soundId = soundId;
-        this.imageurl = imageurl;
+        this.imageUrl = imageUrl;
         this.stats = stats;
     }
 
     public String getId() {
         return id;
     }
-
     public String getName() {
         return name;
     }
@@ -36,15 +36,29 @@ public class Pokemon {
         return type;
     }
 
-    public String getImageurl() {
-        return imageurl;
-    }
-
-    public int getSoundId() {
-        return soundId;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
     public Stats getStats() {
         return stats;
     }
+
+    public int getSoundId() {
+        return soundId;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -57,10 +57,10 @@ public class Stats implements Parcelable {
     }
 
     @Override
-    public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeString(hp);
-        parcel.writeString(attack);
-        parcel.writeString(defence);
-        parcel.writeString(speed);
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(hp);
+        dest.writeString(attack);
+        dest.writeString(defence);
+        dest.writeString(speed);
     }
 }
