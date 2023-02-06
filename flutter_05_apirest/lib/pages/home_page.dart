@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
 
   obtenerPosts() async {
     listadePosts = await PostService().getPost();
-    if (listadePosts == null) {
+    if (listadePosts != null) {
       setState(() {
         isLoaded = true;
       });
