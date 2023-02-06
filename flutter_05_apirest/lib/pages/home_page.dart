@@ -19,6 +19,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
 
     //llamamos a obtener los posts
+    obtenerPosts();
   }
 
   @override
