@@ -43,24 +43,6 @@ void Incrementar(){
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 }
 
 class BotoneraPersonalizada extends StatelessWidget {

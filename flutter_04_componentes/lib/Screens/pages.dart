@@ -1,0 +1,10 @@
+export 'package:flutter_04_componentes/Screens/AlertPage.dart';
+export 'package:flutter_04_componentes/Screens/CardPage.dart';
+export 'package:flutter_04_componentes/Screens/Avatar_page.dart';
+export 'package:flutter_04_componentes/Screens/Homepage.dart';
+export 'package:flutter_04_componentes/Screens/listview1_page.dart';
+export 'package:flutter_04_componentes/Screens/listvivew2_page.dart';
+export 'package:flutter_04_componentes/widgets/tarjeta_persoanlizada2.dart';
+export 'package:flutter_04_componentes/widgets/tarjeta_personalizada_1.dart';
+export 'package:flutter_04_componentes/Screens/FormularioPage.dart';
+export 'package:flutter_04_componentes/Screens/Slider_page.dart';
